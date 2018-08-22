@@ -1,0 +1,62 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-11-10T01:08:30+01:00
+
+====== USB Sticks erstellen ======
+Created Dienstag 10 November 2015
+
+===== Über Startmedienersteller =====
+
+
+===== Image mit DD kopieren =====
+
+{{./pasted_image.png}}
+
+{{./pasted_image001.png?width=800}}
+
+{{./pasted_image002.png}}
+
+für eine Fortschrittsanzeige wird pv benötigt
+→ sudo apt-get install pv
+
+{{{code: lang="cpp" linenumbers="True"
+dd if=/dev/sdb of=/dev/sdc bs=1M #ohne Progress bar
+
+dd if=/dev/urandom | pv | dd of=/dev/null #mit Progressbar
+
+sudo fdisk -l	#alle devices anzeigen lassen
+
+#vorher universe aktivieren!!
+#installation von gnome
+sudo apt-get install gnome-core
+}}}
+
+
+{{{code: lang="sh" linenumbers="True"
+#!/bin/bash
+
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get install gnome-core
+
+#kleines Skript zum erstellen der sticks.
+#es muss 3 mal eingabe gedrückt werden, u.A. um den display manager auszuwählen
+}}}
+
+
+
+===== Desktop Umgebungen =====
+
+für den Workshop Ubuntu installieren und dann gnome desktop nachinstallieren
+
+
+https://wiki.ubuntuusers.de/GNOME_Installation
+
+sudo apt-get install gnome	
+
+
+
+http://wiki.ubuntuusers.de/desktop
+
+http://www.tecmint.com/install-kde-plasma-5-in-linux/
+

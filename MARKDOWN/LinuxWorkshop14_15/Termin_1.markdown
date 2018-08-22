@@ -1,0 +1,107 @@
+# Termin 1
+Created Samstag 07 November 2015
+
+Wlan Einrichten
+---------------
+Kit wlan: im akk: Anonymous Identity: " [anonymous@kit.edu](mailto:anonymous@kit.edu)"
+Ca certificate: /etc/ssl/certs/Deutsch_Telekom_Root_CA_2.pem
+Inner authentication: Dropdown "PAP"
+Username/Passwort: Kit Account
+
+![](./Termin_1/pasted_image.png)	
+![](./Termin_1/pasted_image001.png)
+
+mehr infos dazu auf der seite des SSC
+
+Ubuntu Unity
+------------
+<http://wiki.ubuntuusers.de/Unity>
+
+### Tastatursprache Umstellen
+
+### die Launcher Leiste:
+
+* Dash
+	* wie das Startmenü in Windows.
+	* außerdem auch kürzlich verwendete Dokumente, Internetsuche [wikipedia, ...] → Barack Obama
+* Dateien / Files im Englischen [Nautilus] <https://wiki.ubuntuusers.de/Nautilus>
+	* genau wie normaler Explorer, mit möglichen Plugins
+	* STRG+H für versteckte Dateien
+	* STRG+T neuer Tab
+	* F9
+	* Mit der Tastenkombination  Strg +  L lässt sich die Adressleiste einschalten. → manuelle Adresse eingeben
+	* Dateien mit andere Anwendung öffnen
+	* Dateien erstellen
+	* Auf Windows Platte zugreifen
+	* auf USB Stick zugreifen
+	* Screenshot machen → man findet ihn mit Bildern. Croppen mit Shotwell Viewer
+* Firefox
+* LibreOffice Programme
+	* <https://de.libreoffice.org/discover/templates-and-extensions/users/>
+	* libre office maths
+* mehrere Arbeitsflächen
+	* System Settings → 
+	* Tastenkürzel übersicht SUPER lang gedrückt halten. [super = Windowstaste]
+* Überleitung Dateiinstallation: Plugin für Files
+
+![](./Termin_1/pasted_image002.png)
+
+
+### Installieren von Programmen in Ubuntu
+3 Möglichkeiten:
+
+1. sudo apt-get install [aus Packetquellen, fremd oder official] → beispiel gnome-sushi
+2. download einer installationsdatei aus dem web	z.B. google-chrome, skype
+3. softwareshop. gleiche wie sudo apt-get install, nur grafisch	ubuntu restricted Extras
+	a. der erfahrene Linuxnutzer verwendet meist sudo apt-get install, da es tausendmal schneller geht.
+4. herunterladen eines zip / ordners aus dem web OHNE INSTALLATION. Meist muss dann in den bin Ordner gewechselt werden und das start Skript in einem Terminal ausgeführt werden
+	a. → Workshop 3	[Bsp.: Matlab, Eagle,...]
+
+
+Was nicht geht sind .exe datein, die sind Windows only. Man sollte nach Ubuntu / Debian installationsdateien suchen. [.deb, ]
+
+"ubuntu restricted extras" aus dem software center. wichtig für alle die was mit medien machen, zb
+treiber/bibliotheken für audio/video/... dateien. Am besten als erstes runterladen
+
+
+* Idee von dependencies: Viele Programme bauen auf anderen Programmen auf. Damit der Nutzer nicht selbst schauen muss, welche Abhängigkeiten gebraucht werden, macht apt-get und das softwarecenter das von selbst und sagt einem, dass man die progrmme auch mit installieren muss.
+* bei Downloads aus dem Internet oft nicht so, da apt-get nicht aufgerufen wird.
+	* → selbst auf der Software seite schauen, was der Entwickler sagt, welche software mitinstalliert werden muss
+	* googlen
+	* <https://wiki.ubuntuusers.de/Startseite> → bestes Hilfeforum für fast alles. also immer erst dort schauen.
+
+
+### Deinstallieren von Software
+
+* sudo apt-get remove, sudo apt-get autoremove, sudo apt-get purge	<https://wiki.ubuntuusers.de/apt/apt-get?redirect=no>
+* oder über softwarecenter
+
+
+![](./Termin_1/pasted_image004.png)
+
+
+
+--- P A U S E ---
+-----------------
+
+[/mnt/Myfiles/home_clouds/Dropbox/mydropbox/Linuxworkshop/](file:///C:/mnt/Myfiles/home_clouds/Dropbox/mydropbox/Linuxworkshop)
+
+History of Linux
+----------------
+
+Distributionen
+--------------
+
+![](./Termin_1/pasted_image005.png)
+
+![](./Termin_1/pasted_image006.png)
+
+### Gnome
+
+* Tastatursprache umstellen 
+	* Systemsettings → Keyboard → [unten links im eck] Layouts → Input Sources → + → German
+
+
+
+
+
